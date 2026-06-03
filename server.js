@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // Credenciales Twilio
 const accountSid = 'AC3daba58f9f53b859cd8e5d35483ecdda';
-const authToken = '9419d24235d7a342f06c04148d3e334f';
+const authToken = '692c8e2d8fdbff3dfebd9ef9b37f75c4';
 const twilioClient = twilio(accountSid, authToken);
 const TWILIO_WA = 'whatsapp:+14155238886';
 
